@@ -44,7 +44,7 @@ Sou um desenvolvedor apaixonado por tecnologia, cursando **Ciência da Computaç
 <div align="center">
   <div style="display: flex; justify-content: space-between; width: 100%;">
     <img src="https://github-readme-stats.vercel.app/api?username=1harz&theme=outrun&show_icons=true&hide_border=true&count_private=true&locale=pt-br" alt="GitHub Stats" style="width: 54%;" />
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=1harz&theme=outrun&show_icons=true&hide_border=true&layout=compact&locale=pt-br" alt="linguagens" style="width: 41.4%;" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=1harz&theme=outrun&show_icons=true&hide_border=true&layout=compact&locale=pt-br" alt="linguagens" style="width: 41.1%;" />
   </div>
   
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=1harz&theme=outrun&hide_border=true" alt="GitHub Streak" style="width: 40%; margin-top: 20px;" />
