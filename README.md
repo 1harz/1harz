@@ -1,5 +1,5 @@
 # **Raul Falluh**  
-### **Desenvolvedor Full-Stack @MH Gestão Empresarial | Ciência da Computação - CEUB **  
+### Desenvolvedor Full-Stack @MH Gestão Empresarial | Ciência da Computação - CEUB
 
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=007ef5&width=435&lines=Transformando+código+em+soluções;Aprendizado+contínuo+é+minha+meta;Tecnologia+é+minha+paixão" alt="Typing SVG" />
