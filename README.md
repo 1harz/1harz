@@ -8,7 +8,7 @@
 ---
 
 ## **👨‍💻 Sobre Mim**
-Sou um desenvolvedor apaixonado por tecnologia, cursando **Ciência da Computação no CEUB** (5º semestre). Atualmente, foco no desenvolvimento de sistemas logísticos críticos na **MH Gestão Empresarial**, atuando com processamento de documentos fiscais, APIs RESTful e dashboards analíticos.
+Sou um desenvolvedor apaixonado por tecnologia, cursando **Ciência da Computação no CEUB** (7º semestre). Atualmente, foco no desenvolvimento de sistemas logísticos críticos na **MH Gestão Empresarial**, atuando com processamento de documentos fiscais, APIs RESTful e dashboards analíticos.
 
 **Foco Atual:** Engenharia de Software + IA. Estou explorando a integração de LLMs e Agentes de IA em fluxos de trabalho escaláveis.
 
