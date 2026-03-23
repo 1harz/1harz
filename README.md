@@ -7,7 +7,7 @@
 
 ---
 
-## **👨‍💻 Sobre Mim**
+## **Sobre Mim**
 Sou um desenvolvedor apaixonado por tecnologia, cursando **Ciência da Computação no CEUB** (7º semestre). Atualmente, foco no desenvolvimento de sistemas logísticos críticos na **MH Gestão Empresarial**, atuando com processamento de documentos fiscais, APIs RESTful e dashboards analíticos.
 
 **Foco Atual:** Engenharia de Software + IA. Estou explorando a integração de LLMs e Agentes de IA em fluxos de trabalho escaláveis.
@@ -18,7 +18,7 @@ Sou um desenvolvedor apaixonado por tecnologia, cursando **Ciência da Computaç
 
 ---
 
-## **🚀 Habilidades Técnicas**
+## **Habilidades Técnicas**
 
 ### **Stack Principal & Frameworks**
 <div align="center">
@@ -54,7 +54,7 @@ Sou um desenvolvedor apaixonado por tecnologia, cursando **Ciência da Computaç
 
 ---
 
-## **📊 Minhas Estatísticas**
+## **Minhas Estatísticas**
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=1harz&theme=outrun&hide_border=true" alt="GitHub Streak" style="width: 60%;" />
 </div>
@@ -62,7 +62,7 @@ Sou um desenvolvedor apaixonado por tecnologia, cursando **Ciência da Computaç
 
 ---
 
-## **📬 Contato**
+## **Contato**
 
 <div align="center">
   <a href="mailto:raulfalluh@gmail.com">
