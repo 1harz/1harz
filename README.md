@@ -12,9 +12,9 @@ Sou um desenvolvedor apaixonado por tecnologia, cursando **Ciência da Computaç
 
 **Foco Atual:** Engenharia de Software + IA. Estou explorando a integração de LLMs e Agentes de IA em fluxos de trabalho escaláveis.
 
-- 🎯 Natural de Brasília, 23 anos
-- 💼 Desenvolvedor Full-Stack focado em alta performance
-- ䷡ Foco em arquiteturas escaláveis e código limpo
+- Natural de Brasília, 23 anos
+- Desenvolvedor Full-Stack focado em alta performance
+- Foco em arquiteturas escaláveis e código limpo
 
 ---
 
