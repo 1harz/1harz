@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="290" viewBox="0 0 880 290" role="img" aria-label="Raul Falluh Hero Card">
+  <style>
+    <![CDATA[
+    
+  @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  .font-heading {
+    font-family: 'Space Grotesk', -apple-system, sans-serif;
+  }
+
+  .font-sans {
+    font-family: 'Inter', -apple-system, sans-serif;
+  }
+  
+  .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+
+  @keyframes blink {
+    0%, 49% { opacity: 1; }
+    50%, 100% { opacity: 0; }
+  }
+
+  .blink {
+    animation: blink 1.1s infinite;
+  }
+
+    ]]>
+  </style>
+  
+  <defs>
+    <!-- Background Technical Grid Pattern -->
+    <pattern id="hero-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#161616" stroke-width="0.8"/>
+    </pattern>
+
+    <!-- Dark Card Background Gradient -->
+    <linearGradient id="hero-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#070707"/>
+      <stop offset="100%" stop-color="#040404"/>
+    </linearGradient>
+  </defs>
+  
+
+  <!-- Base Card Container -->
+  <rect x="0.5" y="0.5" width="879" height="289" fill="url(#hero-bg)" stroke="#222222" stroke-width="1"/>
+  <rect x="1" y="43" width="878" height="246" fill="url(#hero-grid)"/>
+
+  
+    <!-- Top Technical Bar -->
+    <rect x="0" y="0" width="880" height="42" fill="#090909"/>
+    <line x1="0" y1="42" x2="880" y2="42" stroke="#222222" stroke-width="1"/>
+
+    <!-- Left: Section Index & Title (using tspan so title never collides with index) -->
+    <g transform="translate(24, 26)">
+      <text y="0">
+        <tspan class="font-mono" font-size="11" font-weight="700" fill="#00e5ff" letter-spacing="1">&lt;HRZ/&gt;</tspan>
+        <tspan dx="16" class="font-heading" font-size="12" font-weight="700" fill="#ffffff" letter-spacing="1.5">SOFTWARE ENGINEERING</tspan>
+      </text>
+    </g>
+
+    <!-- Right: Technical tag -->
+    <g transform="translate(856, 26)">
+      <text text-anchor="end" class="font-mono" font-size="11" font-weight="500" fill="#777777" letter-spacing="1">
+        SYS_STATUS: ONLINE // 2026
+      </text>
+    </g>
+
+    <!-- Technical Corner Crosshairs (Top) -->
+    <path d="M 8 16 L 8 8 L 16 8" fill="none" stroke="#00e5ff" stroke-width="1.2"/>
+    <path d="M 872 16 L 872 8 L 864 8" fill="none" stroke="#00e5ff" stroke-width="1.2"/>
+  
+  
+    <!-- Bottom Technical Corner Crosshairs -->
+    <path d="M 8 274 L 8 282 L 16 282" fill="none" stroke="#333333" stroke-width="1.2"/>
+    <path d="M 872 274 L 872 282 L 864 282" fill="none" stroke="#333333" stroke-width="1.2"/>
+  
+
+  <!-- Left Column: Identity, Bio & Core Traits -->
+  <g transform="translate(36, 72)">
+    <!-- Eyebrow -->
+    <text class="font-mono" font-size="11" font-weight="600" fill="#00e5ff" letter-spacing="1.5">
+      // CRAFTING DIGITAL EXPERIENCES <tspan class="blink">_</tspan>
+    </text>
+
+    <!-- Main Title: RAUL FALLUH -->
+    <text y="40" class="font-heading" font-size="36" font-weight="700" fill="#ffffff" letter-spacing="-0.5">
+      RAUL FALLUH
+    </text>
+    
+    <!-- Subtitle / Core Traits -->
+    <text y="68" class="font-mono" font-size="12" font-weight="600" fill="#e2e8f0" letter-spacing="0.5">
+      FULL STACK DEV <tspan fill="#00e5ff">//</tspan> DEDICAÇÃO &amp; RESILIÊNCIA <tspan fill="#00e5ff">//</tspan> IA
+    </text>
+
+    <text y="96" class="font-sans" font-size="13" font-weight="400" fill="#999999">
+      Desenvolvedor Full Stack @ <tspan font-weight="600" fill="#ffffff">MH Gestão Empresarial</tspan>
+    </text>
+    <text y="118" class="font-sans" font-size="13" font-weight="400" fill="#999999">
+      Bacharelado em Ciência da Computação @ <tspan font-weight="600" fill="#ffffff">CEUB</tspan> (8º Semestre)
+    </text>
+    <text y="140" class="font-sans" font-size="12" font-weight="400" fill="#777777">
+      Dedicação extrema e resiliência profissional na resolução de problemas complexos.
+    </text>
+  </g>
+
+  <!-- Right Column: Tech Specs Box (with Core Traits highlighted) -->
+  <g transform="translate(536, 64)">
+    <rect width="308" height="156" fill="#0a0a0a" stroke="#222222" stroke-width="1"/>
+    
+    <!-- Spec Header -->
+    <rect width="308" height="26" fill="#121212"/>
+    <text x="14" y="17" class="font-mono" font-size="10" font-weight="700" fill="#00e5ff" letter-spacing="1">
+      // SYSTEM_METADATA
+    </text>
+    
+    <g transform="translate(14, 46)">
+      <text class="font-mono" font-size="10.5" fill="#777777">LOCATION:</text>
+      <text x="96" class="font-mono" font-size="10.5" font-weight="600" fill="#ffffff">Brasília, DF // Brasil</text>
+    </g>
+
+    <g transform="translate(14, 68)">
+      <text class="font-mono" font-size="10.5" fill="#777777">EDUCATION:</text>
+      <text x="96" class="font-mono" font-size="10.5" font-weight="600" fill="#ffffff">Ciência da Computação</text>
+    </g>
+
+    <g transform="translate(14, 90)">
+      <text class="font-mono" font-size="10.5" fill="#777777">CURRENT:</text>
+      <text x="96" class="font-mono" font-size="10.5" font-weight="600" fill="#00e5ff">Full Stack Jr @ MH</text>
+    </g>
+
+    <g transform="translate(14, 114)">
+      <text class="font-mono" font-size="10.5" fill="#777777">CORE TRAIT:</text>
+      <text x="96" class="font-mono" font-size="10.5" font-weight="700" fill="#00e5ff">Dedicação &amp; Resiliência</text>
+    </g>
+
+    <g transform="translate(14, 138)">
+      <text class="font-mono" font-size="10.5" fill="#777777">PORTFOLIO:</text>
+      <text x="96" class="font-mono" font-size="10.5" font-weight="600" fill="#ffffff">1harz.com ↗</text>
+    </g>
+  </g>
+
+  <!-- Bottom Technical Coordinate Strip -->
+  <g transform="translate(36, 262)">
+    <line x1="0" y1="-12" x2="808" y2="-12" stroke="#1c1c1c" stroke-width="1"/>
+    <text class="font-mono" font-size="10.5" fill="#555555" letter-spacing="1">
+      LAT: -15.7938 // LNG: -47.8827
+    </text>
+    <text x="808" text-anchor="end" class="font-mono" font-size="10.5" fill="#00e5ff" letter-spacing="1.5">
+      &lt;BUILD&gt; &lt;INNOVATE&gt; &lt;SCALE&gt;
+    </text>
+  </g>
+</svg>

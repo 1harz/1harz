@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="370" viewBox="0 0 880 370" role="img" aria-label="Raul Falluh Tech Stack Card">
+  <style>
+    <![CDATA[
+    
+  @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  .font-heading {
+    font-family: 'Space Grotesk', -apple-system, sans-serif;
+  }
+
+  .font-sans {
+    font-family: 'Inter', -apple-system, sans-serif;
+  }
+  
+  .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+
+  @keyframes blink {
+    0%, 49% { opacity: 1; }
+    50%, 100% { opacity: 0; }
+  }
+
+  .blink {
+    animation: blink 1.1s infinite;
+  }
+
+    ]]>
+  </style>
+  
+  <defs>
+    <!-- Background Technical Grid Pattern -->
+    <pattern id="stack-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#161616" stroke-width="0.8"/>
+    </pattern>
+
+    <!-- Dark Card Background Gradient -->
+    <linearGradient id="stack-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#070707"/>
+      <stop offset="100%" stop-color="#040404"/>
+    </linearGradient>
+  </defs>
+  
+
+  <rect x="0.5" y="0.5" width="879" height="369" fill="url(#stack-bg)" stroke="#222222" stroke-width="1"/>
+  <rect x="1" y="43" width="878" height="326" fill="url(#stack-grid)"/>
+
+  
+    <!-- Top Technical Bar -->
+    <rect x="0" y="0" width="880" height="42" fill="#090909"/>
+    <line x1="0" y1="42" x2="880" y2="42" stroke="#222222" stroke-width="1"/>
+
+    <!-- Left: Section Index & Title (using tspan so title never collides with index) -->
+    <g transform="translate(24, 26)">
+      <text y="0">
+        <tspan class="font-mono" font-size="11" font-weight="700" fill="#00e5ff" letter-spacing="1">02</tspan>
+        <tspan dx="16" class="font-heading" font-size="12" font-weight="700" fill="#ffffff" letter-spacing="1.5">TECH STACK // TECNOLOGIAS</tspan>
+      </text>
+    </g>
+
+    <!-- Right: Technical tag -->
+    <g transform="translate(856, 26)">
+      <text text-anchor="end" class="font-mono" font-size="11" font-weight="500" fill="#777777" letter-spacing="1">
+        PRODUCTION_TOOLING
+      </text>
+    </g>
+
+    <!-- Technical Corner Crosshairs (Top) -->
+    <path d="M 8 16 L 8 8 L 16 8" fill="none" stroke="#00e5ff" stroke-width="1.2"/>
+    <path d="M 872 16 L 872 8 L 864 8" fill="none" stroke="#00e5ff" stroke-width="1.2"/>
+  
+  
+    <!-- Bottom Technical Corner Crosshairs -->
+    <path d="M 8 354 L 8 362 L 16 362" fill="none" stroke="#333333" stroke-width="1.2"/>
+    <path d="M 872 354 L 872 362 L 864 362" fill="none" stroke="#333333" stroke-width="1.2"/>
+  
+
+  <!-- 4 Structured Bento Panels (2x2 grid, 394px each with zero collisions) -->
+  <g transform="translate(36, 68)">
+    <!-- Box 1: Backend -->
+    <g transform="translate(0, 0)">
+      <rect width="394" height="132" fill="#0a0a0a" stroke="#222222" stroke-width="1"/>
+      <line x1="0" y1="0" x2="394" y2="0" stroke="#00e5ff" stroke-width="1.5"/>
+      <text x="16" y="24" class="font-mono" font-size="11" font-weight="700" fill="#00e5ff">// BACKEND &amp; DATA SYSTEMS</text>
+      
+        <g transform="translate(16, 42)">
+          <rect width="82" height="24" fill="#121212" stroke="#222222" stroke-width="1"/>
+          <text x="6" y="16" class="font-mono" font-size="10" font-weight="500" fill="#e2e8f0">Node.js</text>
+        </g>
+      
+        <g transform="translate(104, 42)">
+          <rect width="82" height="24" fill="#121212" stroke="#222222" stroke-width="1"/>
+          <text x="6" y="16" class="font-mono" font-size="10" font-weight="500" fill="#e2e8f0">NestJS</text>
+        </g>
+      
+        <g transform="translate(192, 42)">
+          <rect width="82" height="24" fill="#121212" stroke="#222222" stroke-width="1"/>
+          <text x="6" y="16" class="font-mono" font-size="10" font-weight="500" fill="#e2e8f0">TypeScript</text>
+        </g>
+      
+        <g transform="translate(280, 42)">
+          <rect width="82" height="24" fill="#121212" stroke="#222222" stroke-width="1"/>
+          <text x="6" y="16" class="font-mono" font-size="10" font-weight="500" fill="#e2e8f0">Fastify</text>
+        </g>
+      
+        <g transform="translate(16, 72)">
+          <rect width="82" height="24" fill="#121212" stroke="#222222" stroke-width="1"/>
+          <text x="6" y="16" class="font-mono" font-size="10" font-weight="500" fill="#e2e8f0">PostgreSQL</text>
+        </g>
+      
+        <g transform="translate(104, 72)">
+          <rect width="82" height="24" fill="#121212" stroke="#222222" stroke-width="1"/>
+          <text x="6" y="16" class="font-mono" font-size="10" font-weight="500" fill="#e2e8f0">Prisma</text>
+        </g>
+      
+        <g transform="translate(192, 72)">
+          <rect width="82" height="24" fill="#121212" stroke="#222222" stroke-width="1"/>
+          <text x="6" y="16" class="font-mono" font-size="10" font-weight="500" fill="#e2e8f0">Redis</text>
+        </g>
+      
+        <g transform="translate(280, 72)">
+          <rect width="82" height="24" fill="#121212" stroke="#222222" stroke-width="1"/>
+          <text x="6" y="16" class="font-mono" font-size="10" font-weight="500" fill="#e2e8f0">Swagger</text>
+        </g>
+      
+    </g>
+
+    <!-- Box 2: Frontend -->
+    <g transform="translate(414, 0)">
+      <rect width="394" height="132" fill="#0a0a0a" stroke="#222222" stroke-width="1"/>
+      <line x1="0" y1="0" x2="394" y2="0" stroke="#00e5ff" stroke-width="1.5"/>
+      <text x="16" y="24" class="font-mono" font-size="11" font-weight="700" fill="#00e5ff">// FRONTEND &amp; INTERFACES</text>
+      
+        <g transform="translate(16, 42)">
+          <rect width="82" height="24" fill="#121212" stroke="#222222" stroke-width="1"/>
+          <text x="6" y="16" class="font-mono" font-size="10" font-weight="500" fill="#e2e8f0">ReactJS</text>
+        </g>
+      
+        <g transform="translate(104, 42)">
+          <rect width="82" height="24" fill="#121212" stroke="#222222" stroke-width="1"/>
+          <text x="6" y="16" class="font-mono" font-size="10" font-weight="500" fill="#e2e8f0">Next.js</text>
+        </g>
+      
+        <g transform="translate(192, 42)">
+          <rect width="82" height="24" fill="#121212" stroke="#222222" stroke-width="1"/>
+          <text x="6" y="16" class="font-mono" font-size="10" font-weight="500" fill="#e2e8f0">Vue.js</text>
+        </g>
+      
+        <g transform="translate(280, 42)">
+          <rect width="82" height="24" fill="#121212" stroke="#222222" stroke-width="1"/>
+          <text x="6" y="16" class="font-mono" font-size="10" font-weight="500" fill="#e2e8f0">Vite</text>
+        </g>
+      
+        <g transform="translate(16, 72)">
+          <rect width="82" height="24" fill="#121212" stroke="#222222" stroke-width="1"/>
+          <text x="6" y="16" class="font-mono" font-size="10" font-weight="500" fill="#e2e8f0">Tailwind</text>
+        </g>
+      
+        <g transform="translate(104, 72)">
+          <rect width="82" height="24" fill="#121212" stroke="#222222" stroke-width="1"/>
+          <text x="6" y="16" class="font-mono" font-size="10" font-weight="500" fill="#e2e8f0">Zustand</text>
+        </g>
+      
+        <g transform="translate(192, 72)">
+          <rect width="82" height="24" fill="#121212" stroke="#222222" stroke-width="1"/>
+          <text x="6" y="16" class="font-mono" font-size="10" font-weight="500" fill="#e2e8f0">GSAP</text>
+        </g>
+      
+        <g transform="translate(280, 72)">
+          <rect width="82" height="24" fill="#121212" stroke="#222222" stroke-width="1"/>
+          <text x="6" y="16" class="font-mono" font-size="10" font-weight="500" fill="#e2e8f0">HTML5/CSS</text>
+        </g>
+      
+    </g>
+
+    <!-- Box 3: AI & Mobile -->
+    <g transform="translate(0, 148)">
+      <rect width="394" height="132" fill="#0a0a0a" stroke="#222222" stroke-width="1"/>
+      <line x1="0" y1="0" x2="394" y2="0" stroke="#00e5ff" stroke-width="1.5"/>
+      <text x="16" y="24" class="font-mono" font-size="11" font-weight="700" fill="#00e5ff">// AI &amp; MOBILE ECOSYSTEM</text>
+      
+        <g transform="translate(16, 42)">
+          <rect width="82" height="24" fill="#121212" stroke="#222222" stroke-width="1"/>
+          <text x="6" y="16" class="font-mono" font-size="10" font-weight="500" fill="#e2e8f0">AI Agents</text>
+        </g>
+      
+        <g transform="translate(104, 42)">
+          <rect width="82" height="24" fill="#121212" stroke="#222222" stroke-width="1"/>
+          <text x="6" y="16" class="font-mono" font-size="10" font-weight="500" fill="#e2e8f0">Fine-Tuning</text>
+        </g>
+      
+        <g transform="translate(192, 42)">
+          <rect width="82" height="24" fill="#121212" stroke="#222222" stroke-width="1"/>
+          <text x="6" y="16" class="font-mono" font-size="10" font-weight="500" fill="#e2e8f0">Python</text>
+        </g>
+      
+        <g transform="translate(280, 42)">
+          <rect width="82" height="24" fill="#121212" stroke="#222222" stroke-width="1"/>
+          <text x="6" y="16" class="font-mono" font-size="10" font-weight="500" fill="#e2e8f0">LangChain</text>
+        </g>
+      
+        <g transform="translate(16, 72)">
+          <rect width="82" height="24" fill="#121212" stroke="#222222" stroke-width="1"/>
+          <text x="6" y="16" class="font-mono" font-size="10" font-weight="500" fill="#e2e8f0">React Nat.</text>
+        </g>
+      
+        <g transform="translate(104, 72)">
+          <rect width="82" height="24" fill="#121212" stroke="#222222" stroke-width="1"/>
+          <text x="6" y="16" class="font-mono" font-size="10" font-weight="500" fill="#e2e8f0">Capacitor</text>
+        </g>
+      
+        <g transform="translate(192, 72)">
+          <rect width="82" height="24" fill="#121212" stroke="#222222" stroke-width="1"/>
+          <text x="6" y="16" class="font-mono" font-size="10" font-weight="500" fill="#e2e8f0">Expo</text>
+        </g>
+      
+        <g transform="translate(280, 72)">
+          <rect width="82" height="24" fill="#121212" stroke="#222222" stroke-width="1"/>
+          <text x="6" y="16" class="font-mono" font-size="10" font-weight="500" fill="#e2e8f0">FiveM Lua</text>
+        </g>
+      
+    </g>
+
+    <!-- Box 4: DevOps & Architecture -->
+    <g transform="translate(414, 148)">
+      <rect width="394" height="132" fill="#0a0a0a" stroke="#222222" stroke-width="1"/>
+      <line x1="0" y1="0" x2="394" y2="0" stroke="#00e5ff" stroke-width="1.5"/>
+      <text x="16" y="24" class="font-mono" font-size="11" font-weight="700" fill="#00e5ff">// DEVOPS &amp; ARCHITECTURE</text>
+      
+        <g transform="translate(16, 42)">
+          <rect width="82" height="24" fill="#121212" stroke="#222222" stroke-width="1"/>
+          <text x="6" y="16" class="font-mono" font-size="10" font-weight="500" fill="#e2e8f0">Docker</text>
+        </g>
+      
+        <g transform="translate(104, 42)">
+          <rect width="82" height="24" fill="#121212" stroke="#222222" stroke-width="1"/>
+          <text x="6" y="16" class="font-mono" font-size="10" font-weight="500" fill="#e2e8f0">Git/GitHub</text>
+        </g>
+      
+        <g transform="translate(192, 42)">
+          <rect width="82" height="24" fill="#121212" stroke="#222222" stroke-width="1"/>
+          <text x="6" y="16" class="font-mono" font-size="10" font-weight="500" fill="#e2e8f0">Linux OS</text>
+        </g>
+      
+        <g transform="translate(280, 42)">
+          <rect width="82" height="24" fill="#121212" stroke="#222222" stroke-width="1"/>
+          <text x="6" y="16" class="font-mono" font-size="10" font-weight="500" fill="#e2e8f0">Grafana</text>
+        </g>
+      
+        <g transform="translate(16, 72)">
+          <rect width="82" height="24" fill="#121212" stroke="#222222" stroke-width="1"/>
+          <text x="6" y="16" class="font-mono" font-size="10" font-weight="500" fill="#e2e8f0">Clean Arch</text>
+        </g>
+      
+        <g transform="translate(104, 72)">
+          <rect width="82" height="24" fill="#121212" stroke="#222222" stroke-width="1"/>
+          <text x="6" y="16" class="font-mono" font-size="10" font-weight="500" fill="#e2e8f0">SOLID</text>
+        </g>
+      
+        <g transform="translate(192, 72)">
+          <rect width="82" height="24" fill="#121212" stroke="#222222" stroke-width="1"/>
+          <text x="6" y="16" class="font-mono" font-size="10" font-weight="500" fill="#e2e8f0">CI/CD</text>
+        </g>
+      
+        <g transform="translate(280, 72)">
+          <rect width="82" height="24" fill="#121212" stroke="#222222" stroke-width="1"/>
+          <text x="6" y="16" class="font-mono" font-size="10" font-weight="500" fill="#e2e8f0">REST APIs</text>
+        </g>
+      
+    </g>
+  </g>
+</svg>

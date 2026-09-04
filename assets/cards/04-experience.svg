@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="370" viewBox="0 0 880 370" role="img" aria-label="Raul Falluh Experience Card">
+  <style>
+    <![CDATA[
+    
+  @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  .font-heading {
+    font-family: 'Space Grotesk', -apple-system, sans-serif;
+  }
+
+  .font-sans {
+    font-family: 'Inter', -apple-system, sans-serif;
+  }
+  
+  .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+
+  @keyframes blink {
+    0%, 49% { opacity: 1; }
+    50%, 100% { opacity: 0; }
+  }
+
+  .blink {
+    animation: blink 1.1s infinite;
+  }
+
+    ]]>
+  </style>
+  
+  <defs>
+    <!-- Background Technical Grid Pattern -->
+    <pattern id="exp-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#161616" stroke-width="0.8"/>
+    </pattern>
+
+    <!-- Dark Card Background Gradient -->
+    <linearGradient id="exp-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#070707"/>
+      <stop offset="100%" stop-color="#040404"/>
+    </linearGradient>
+  </defs>
+  
+
+  <rect x="0.5" y="0.5" width="879" height="369" fill="url(#exp-bg)" stroke="#222222" stroke-width="1"/>
+  <rect x="1" y="43" width="878" height="326" fill="url(#exp-grid)"/>
+
+  
+    <!-- Top Technical Bar -->
+    <rect x="0" y="0" width="880" height="42" fill="#090909"/>
+    <line x1="0" y1="42" x2="880" y2="42" stroke="#222222" stroke-width="1"/>
+
+    <!-- Left: Section Index & Title (using tspan so title never collides with index) -->
+    <g transform="translate(24, 26)">
+      <text y="0">
+        <tspan class="font-mono" font-size="11" font-weight="700" fill="#00e5ff" letter-spacing="1">03</tspan>
+        <tspan dx="16" class="font-heading" font-size="12" font-weight="700" fill="#ffffff" letter-spacing="1.5">EXPERIÊNCIA // TRAJETÓRIA</tspan>
+      </text>
+    </g>
+
+    <!-- Right: Technical tag -->
+    <g transform="translate(856, 26)">
+      <text text-anchor="end" class="font-mono" font-size="11" font-weight="500" fill="#777777" letter-spacing="1">
+        CAREER_TIMELINE
+      </text>
+    </g>
+
+    <!-- Technical Corner Crosshairs (Top) -->
+    <path d="M 8 16 L 8 8 L 16 8" fill="none" stroke="#00e5ff" stroke-width="1.2"/>
+    <path d="M 872 16 L 872 8 L 864 8" fill="none" stroke="#00e5ff" stroke-width="1.2"/>
+  
+  
+    <!-- Bottom Technical Corner Crosshairs -->
+    <path d="M 8 354 L 8 362 L 16 362" fill="none" stroke="#333333" stroke-width="1.2"/>
+    <path d="M 872 354 L 872 362 L 864 362" fill="none" stroke="#333333" stroke-width="1.2"/>
+  
+
+  <!-- Timeline Items in requested order: 1) Formação, 2) Estágio, 3) Full Stack Jr -->
+  <g transform="translate(36, 68)">
+    <!-- Item 1: Formação Acadêmica (CEUB) -->
+    <g transform="translate(0, 0)">
+      <rect width="808" height="84" fill="#0a0a0a" stroke="#222222" stroke-width="1"/>
+      <rect x="0" y="0" width="3" height="84" fill="#00e5ff"/>
+
+      <text x="20" y="24" class="font-mono" font-size="10.5" font-weight="700" fill="#00e5ff" letter-spacing="1">
+        2023 - PRESENTE // FORMAÇÃO SUPERIOR
+      </text>
+
+      <text x="20" y="46">
+        <tspan class="font-heading" font-size="15" font-weight="700" fill="#ffffff">Ciência da Computação (8º Semestre)</tspan>
+        <tspan dx="12" class="font-mono" font-size="12" fill="#888888">[ CEUB ]</tspan>
+      </text>
+
+      <text x="20" y="68" class="font-sans" font-size="12" fill="#999999">
+        Formação sólida com ênfase em algoritmos, análise de complexidade, engenharia de software e inteligência artificial.
+      </text>
+
+      <text x="790" y="24" text-anchor="end" class="font-mono" font-size="10" fill="#555555">
+        ALGORITMOS · ARQUITETURA · IA
+      </text>
+    </g>
+
+    <!-- Item 2: Estágio Full Stack (MH Gestão Empresarial) -->
+    <g transform="translate(0, 96)">
+      <rect width="808" height="84" fill="#0a0a0a" stroke="#222222" stroke-width="1"/>
+      <rect x="0" y="0" width="3" height="84" fill="#888888"/>
+
+      <text x="20" y="24" class="font-mono" font-size="10.5" font-weight="700" fill="#888888" letter-spacing="1">
+        SET 2025 - MAI 2026 // TRAJETÓRIA
+      </text>
+
+      <text x="20" y="46">
+        <tspan class="font-heading" font-size="15" font-weight="700" fill="#ffffff">Estágio - Full Stack</tspan>
+        <tspan dx="12" class="font-mono" font-size="12" fill="#888888">[ MH Gestão Empresarial ]</tspan>
+      </text>
+
+      <text x="20" y="68" class="font-sans" font-size="12" fill="#999999">
+        Desenvolvimento de sistemas logísticos (TMS/WMS/ERP), emissão de documentos fiscais e dashboards interativos.
+      </text>
+
+      <text x="790" y="24" text-anchor="end" class="font-mono" font-size="10" fill="#555555">
+        REACT · NODE.JS · POSTGRESQL · APIS
+      </text>
+    </g>
+
+    <!-- Item 3: Desenvolvedor Full Stack Jr (MH Gestão Empresarial | Braslog) -->
+    <g transform="translate(0, 192)">
+      <rect width="808" height="84" fill="#0a0a0a" stroke="#222222" stroke-width="1"/>
+      <rect x="0" y="0" width="3" height="84" fill="#00e5ff"/>
+
+      <text x="20" y="24" class="font-mono" font-size="10.5" font-weight="700" fill="#00e5ff" letter-spacing="1">
+        MAI 2026 - PRESENTE // CARGO ATUAL
+      </text>
+      
+      <text x="20" y="46">
+        <tspan class="font-heading" font-size="15" font-weight="700" fill="#ffffff">Desenvolvedor Full Stack Jr</tspan>
+        <tspan dx="12" class="font-mono" font-size="12" fill="#888888">[ MH Gestão Empresarial | Braslog ]</tspan>
+      </text>
+
+      <text x="20" y="68" class="font-sans" font-size="12" fill="#999999">
+        Arquitetura de sistemas críticos (ERP, TMS, WMS). Processamento fiscal (CTe, NF-e, NFS-e) e APIs RESTful de alta escala.
+      </text>
+
+      <text x="790" y="24" text-anchor="end" class="font-mono" font-size="10" fill="#555555">
+        REACT · NESTJS · POSTGRES · REDIS
+      </text>
+    </g>
+  </g>
+</svg>

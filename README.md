@@ -1,87 +1,87 @@
-# **Raul Falluh**
-### Desenvolvedor Full-Stack @MH Gestão Empresarial | Ciência da Computação - CEUB
+# <div align="center">&lt;HRZ/&gt; · RAUL FALLUH</div>
 
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=007ef5&width=435&lines=Transformando+código+em+soluções;Aprendizado+contínuo+é+minha+meta;Tecnologia+é+minha+paixão" alt="Typing SVG" />
-</div>
+<p align="center">
+  <code>// FULL STACK DEV // DEDICAÇÃO &amp; RESILIÊNCIA // AGENTES DE IA &amp; FINE-TUNING</code>
+</p>
 
----
+<p align="center">
+  <strong>Desenvolvedor Full Stack @ MH Gestão Empresarial | Ciência da Computação @ CEUB (8º Semestre)</strong><br />
+  <em>Dedicação contínua e resiliência profissional para solucionar problemas de alta complexidade e criar arquiteturas escaláveis.</em><br />
+  <sub>LAT: -15.7938 // LNG: -47.8827 · Brasília, DF // Brasil</sub>
+</p>
 
-## **Sobre Mim**
-Sou um desenvolvedor apaixonado por tecnologia, cursando **Ciência da Computação no CEUB** (7º semestre). Atualmente, foco no desenvolvimento de sistemas logísticos críticos na **MH Gestão Empresarial**, atuando com processamento de documentos fiscais, APIs RESTful e dashboards analíticos.
+<br />
 
-**Foco Atual:** Engenharia de Software + IA. Estou explorando a integração de LLMs e Agentes de IA em fluxos de trabalho escaláveis.
+## // 00. HEADER
 
-- Natural de Brasília, 23 anos
-- Desenvolvedor Full-Stack focado em alta performance
-- Foco em arquiteturas escaláveis e código limpo
+<p align="center">
+  <img src="assets/cards/01-hero.svg" alt="Raul Falluh - Hero Overview" width="100%" />
+</p>
 
----
+<br />
 
-## **Habilidades Técnicas**
+## // 01. DIRETRIZES CENTRAIS
 
-### **Stack Principal & Frameworks**
-<div align="center">
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node" />
-  <img src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" alt="NestJS" />
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Fastify-000000?style=for-the-badge&logo=fastify&logoColor=white" alt="Fastify" />
-  <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white" alt="Vue" />
-  <img src="https://img.shields.io/badge/SpecKit-F01032?style=for-the-badge&logo=git&logoColor=white" alt="Gituh SpecKit" />
-</div>
+<p align="center">
+  <img src="assets/cards/02-about-directives.svg" alt="Raul Falluh - Core Directives" width="100%" />
+</p>
 
-### **Linguagens de Programação**
-<div align="center">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/C-FF0000?style=for-the-badge&logo=c&logoColor=white" alt="C" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-</div>
+<br />
 
-### **Ferramentas, Banco de Dados e OS**
-<div align="center">
-  <img src="https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white" alt="Prisma" />
-  <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
-  <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Windows" />
-</div>
+## // 02. TECH STACK &amp; FERRAMENTAS
 
----
+<p align="center">
+  <img src="assets/cards/03-tech-stack.svg" alt="Raul Falluh - Tech Stack Ecosystem" width="100%" />
+</p>
 
-## **Minhas Estatísticas**
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=1harz&theme=outrun&hide_border=true" alt="GitHub Streak" style="width: 60%;" />
-</div>
-</div>
+<br />
 
----
+## // 03. EXPERIÊNCIA &amp; TRAJETÓRIA
 
-## **Contato**
+<p align="center">
+  <img src="assets/cards/04-experience.svg" alt="Raul Falluh - Career Experience" width="100%" />
+</p>
 
-<div align="center">
-  <a href="mailto:raulfalluh@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+<br />
+
+## // 04. GITHUB METRICS &amp; PERFORMANCE
+
+<p align="center">
+  <img src="assets/cards/05-stats.svg" alt="Raul Falluh - GitHub Stats &amp; Metrics" width="100%" />
+</p>
+
+<br />
+
+## // 05. CONTATO &amp; DISPONIBILIDADE
+
+<p align="center">
+  <img src="assets/cards/06-connect.svg" alt="Raul Falluh - Connect &amp; Socials" width="100%" />
+</p>
+
+<p align="center">
+  <a href="https://1harz.com/curriculo/">
+    <img src="https://img.shields.io/badge/PORTFOLIO-1HARZ.COM-080808?style=for-the-badge&logo=google-chrome&logoColor=00e5ff" alt="Portfolio" />
   </a>
-  <a href="https://wa.me/5561984078564">
-    <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-  </a>
+  &nbsp;
   <a href="https://www.linkedin.com/in/raulfalluh/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+    <img src="https://img.shields.io/badge/LINKEDIN-RAULFALLUH-080808?style=for-the-badge&logo=linkedin&logoColor=00e5ff" alt="LinkedIn" />
   </a>
-  <a href="https://github.com/1harz">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
+  &nbsp;
+  <a href="https://wa.me/5561984078564">
+    <img src="https://img.shields.io/badge/WHATSAPP-CONTATO-080808?style=for-the-badge&logo=whatsapp&logoColor=00e5ff" alt="WhatsApp" />
   </a>
-</div>
+  &nbsp;
+  <a href="mailto:raulfalluh@gmail.com">
+    <img src="https://img.shields.io/badge/EMAIL-RAULFALLUH%40GMAIL.COM-080808?style=for-the-badge&logo=gmail&logoColor=00e5ff" alt="Email" />
+  </a>
+</p>
 
----
+<br />
 
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=1harz&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
-  <p>Não deixe de entrar em contato, será um prazer te conhecer!</p>
-</div>
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=1harz&label=PROFILE%20VIEWS&color=00e5ff&style=flat-square" alt="Profile views" />
+</p>
+
+<p align="center">
+  <sub>&lt;BUILD&gt; &lt;INNOVATE&gt; &lt;SCALE&gt; · © Raul Falluh (1harz.com)</sub>
+</p>
